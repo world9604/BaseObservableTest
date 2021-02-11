@@ -1,5 +1,6 @@
 package com.taein.baseobservabletest
 
+/* MainActivity.kt */
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
