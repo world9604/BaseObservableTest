@@ -20,17 +20,6 @@ class MainActivity : AppCompatActivity(){
                 mUser.firstName = "firstName"
                 mUser.lastName = "LastName"
                 user = mUser
-                listener = clickListener
             }
     }
-
-    val clickListener = object: OnClicked {
-        override fun onClick() {
-            Log.d("test", "first name : ${mUser.firstName}, last name : ${mUser.lastName}")
-        }
-    }
-}
-
-interface OnClicked {
-    fun onClick()
 }
